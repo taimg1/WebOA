@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('../../node_modules/font-awesome/css/font-awesome.css');
 
-*{
+body{
     background-color: rgb(218, 235, 235);
 }
 .container{
@@ -31,7 +31,7 @@
 .container__icons {
     display: flex;
     justify-content: end;
-    margin-right: 5px;
+    padding: 0 3%;
 }
 i{
     color:#aed134;
@@ -59,6 +59,7 @@ i{
 .container__table th{
     color: #9da8a9;
     text-align: left;
+    padding-left:    15px;
     border-bottom: 1px solid #efefef;
 }
 
@@ -84,7 +85,7 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #fff;
 }
-.container__table tr:hover {
+.container__table .table__tr--content:hover {
     background-color: #e8e8e8;
 }
 @media (max-width: 768px) {

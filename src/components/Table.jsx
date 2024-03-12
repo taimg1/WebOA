@@ -1,12 +1,10 @@
-
 import './Table.css';
-// import React, { useState } from 'react';
-
-// const [isShown, setIsShown] = useState(false);
-
+// import React, { useState,useRef } from 'react';
+// const [isShown, setIsShown] = useState(true);
+//
 // const HandleClick = () => {
 //     setIsShown(!isShown);
-//     tbody.style.display = isShown ? "none" : "block";
+//
 // };
 
 const Table = () => {
@@ -19,7 +17,7 @@ const Table = () => {
                 <h1>Skiptrace Details</h1>
             </section>
             <section className="container__icons">
-                <i className="fa fa-square-check"></i><span>Show / Hide Rows</span>
+                <i className="fa-solid fa-check-to-slot"></i><span>Show / Hide Rows</span>
                 <i className="fa-solid fa-file-export"></i><span>Export</span>
             </section>
             <section className="container__table">
@@ -35,8 +33,8 @@ const Table = () => {
                         <th>Race</th>
                     </tr>
                     </thead>
-                    <tbody>
-                    <tr>
+                    <tbody className="table__content">
+                    <tr className="table__tr--content">
                         <td>Barry Parker</td>
                         <td>Yes</td>
                         <td>(224) 614-9985</td>
@@ -45,48 +43,48 @@ const Table = () => {
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
-                    <tr>
+                    <tr className="table__tr--content">
                         <td>Dominic Wright</td>
                         <td>No</td>
                         <td className="red">(367) 602-7186</td>
-                        <td className="gray">(979) 307-9402 <i className="fa-solid fa-plus" /></td>
-                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">(979) 307-9402 <i className="fa-solid fa-plus"/></td>
+                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus"/></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
-                    <tr>
+                    <tr className="table__tr--content">
                         <td>Barry Parker</td>
                         <td>Yes</td>
                         <td>(224) 614-9985</td>
-                        <td className="gray">(588) 900-2137 <i className="fa-solid fa-plus" /></td>
-                        <td className="gray">bparker@example.com <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">(588) 900-2137 <i className="fa-solid fa-plus"/></td>
+                        <td className="gray">bparker@example.com <i className="fa-solid fa-plus"/></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
-                    <tr>
+                    <tr className="table__tr--content">
                         <td>Dominic Wright</td>
                         <td>No</td>
                         <td>(367) 602-7186</td>
-                        <td className="gray">(367) 602-7186 <i className="fa-solid fa-plus" /></td>
-                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">(367) 602-7186 <i className="fa-solid fa-plus"/></td>
+                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus"/></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
-                    <tr>
+                    <tr className="table__tr--content">
                         <td>Barry Parker</td>
                         <td>Yes</td>
                         <td>(224) 614-9985</td>
-                        <td className="gray">(588) 900-2137 <i className="fa-solid fa-plus" /></td>
-                        <td className="gray">bparker@example.com <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">(588) 900-2137 <i className="fa-solid fa-plus"/></td>
+                        <td className="gray">bparker@example.com <i className="fa-solid fa-plus"/></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
-                    <tr>
+                    <tr className="table__tr--content">
                         <td>Dominic Wright</td>
                         <td>No</td>
                         <td className="red">(367) 602-7186</td>
-                        <td className="gray">(979) 307-9402 <i className="fa-solid fa-plus" /></td>
-                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">(979) 307-9402 <i className="fa-solid fa-plus"/></td>
+                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus"/></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
