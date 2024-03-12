@@ -1,5 +1,14 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import './Table.css';
+// import React, { useState } from 'react';
+
+// const [isShown, setIsShown] = useState(false);
+
+// const HandleClick = () => {
+//     setIsShown(!isShown);
+//     tbody.style.display = isShown ? "none" : "block";
+// };
+
 const Table = () => {
     return(
         <div className="container">
@@ -11,7 +20,7 @@ const Table = () => {
             </section>
             <section className="container__icons">
                 <i className="fa fa-square-check"></i><span>Show / Hide Rows</span>
-                <FontAwesomeIcon icon="fa-solid fa-file-export"/><span>Export</span>
+                <i className="fa-solid fa-file-export"></i><span>Export</span>
             </section>
             <section className="container__table">
                 <table>
@@ -31,8 +40,8 @@ const Table = () => {
                         <td>Barry Parker</td>
                         <td>Yes</td>
                         <td>(224) 614-9985</td>
-                        <td className="gray">(588) 900-2137 <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
-                        <td className="gray">bparker@example.com <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
+                        <td className="gray">(588) 900-2137 <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">bparker@example.com <i className="fa-solid fa-plus" /></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
@@ -40,8 +49,8 @@ const Table = () => {
                         <td>Dominic Wright</td>
                         <td>No</td>
                         <td className="red">(367) 602-7186</td>
-                        <td className="gray">(979) 307-9402 <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
-                        <td className="gray">pireco@Iuporob.io <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
+                        <td className="gray">(979) 307-9402 <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus" /></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
@@ -49,8 +58,8 @@ const Table = () => {
                         <td>Barry Parker</td>
                         <td>Yes</td>
                         <td>(224) 614-9985</td>
-                        <td className="gray">(588) 900-2137 <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
-                        <td className="gray">bparker@example.com <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
+                        <td className="gray">(588) 900-2137 <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">bparker@example.com <i className="fa-solid fa-plus" /></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
@@ -58,8 +67,8 @@ const Table = () => {
                         <td>Dominic Wright</td>
                         <td>No</td>
                         <td>(367) 602-7186</td>
-                        <td className="gray">(367) 602-7186 <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
-                        <td className="gray">pireco@Iuporob.io <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
+                        <td className="gray">(367) 602-7186 <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus" /></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
@@ -67,8 +76,8 @@ const Table = () => {
                         <td>Barry Parker</td>
                         <td>Yes</td>
                         <td>(224) 614-9985</td>
-                        <td className="gray">(588) 900-2137 <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
-                        <td className="gray">bparker@example.com <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
+                        <td className="gray">(588) 900-2137 <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">bparker@example.com <i className="fa-solid fa-plus" /></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
@@ -76,8 +85,8 @@ const Table = () => {
                         <td>Dominic Wright</td>
                         <td>No</td>
                         <td className="red">(367) 602-7186</td>
-                        <td className="gray">(979) 307-9402 <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
-                        <td className="gray">pireco@Iuporob.io <FontAwesomeIcon icon="fa-solid fa-plus" /></td>
+                        <td className="gray">(979) 307-9402 <i className="fa-solid fa-plus" /></td>
+                        <td className="gray">pireco@Iuporob.io <i className="fa-solid fa-plus" /></td>
                         <td>English</td>
                         <td>Unknown</td>
                     </tr>
